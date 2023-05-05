@@ -1,0 +1,5 @@
+<option value="">Yayın Evini Seçiniz...</option>
+{% for yayinevie in yayinevies %}
+<option value="{{ yayinevie.pk }}">{{ yayinevie.name }}</option>
+{% endfor %}
+
